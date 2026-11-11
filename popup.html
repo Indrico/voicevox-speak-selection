@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VOICEVOX TTS</title>
+  <style>
+    body { font: 14px system-ui, sans-serif; width: 300px; padding: 14px; color: #28213f; }
+    label { display: block; margin: 12px 0 5px; font-weight: 600; }
+    select, textarea, button { box-sizing: border-box; width: 100%; padding: 8px; }
+    textarea { height: 70px; resize: vertical; }
+    button { margin-top: 10px; cursor: pointer; }
+    #status { font-size: 12px; white-space: pre-wrap; margin-top: 9px; color: #655b7a; }
+  </style>
+</head>
+<body>
+  <h3>VOICEVOX TTS</h3>
+  <p>VOICEVOX Engine must be running locally.</p>
+  <label for="voice">Japanese voice</label>
+  <select id="voice"></select>
+  <button id="refresh">Refresh voices</button>
+  <label for="sample">Test sentence</label>
+  <textarea id="sample">荷物を別の部屋に移した。</textarea>
+  <button id="speak">Speak test sentence</button>
+  <div id="status">Connecting…</div>
+  <script src="popup.js"></script>
+</body>
+</html>
