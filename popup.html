@@ -16,12 +16,14 @@
 <body>
   <h3>VOICEVOX TTS</h3>
   <p>VOICEVOX Engine must be running locally.</p>
-  <label for="voice">Japanese voice</label>
-  <select id="voice"></select>
+  <label for="voice">Character</label>
+  <select id="voice" disabled></select>
+  <label for="preset">Preset</label>
+  <select id="preset" disabled></select>
   <button id="refresh">Refresh voices</button>
   <label for="sample">Test sentence</label>
   <textarea id="sample">荷物を別の部屋に移した。</textarea>
-  <button id="speak">Speak test sentence</button>
+  <button id="speak" disabled>Speak test sentence</button>
   <div id="status">Connecting…</div>
   <script src="popup.js"></script>
 </body>
