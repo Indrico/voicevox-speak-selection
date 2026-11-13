@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "VOICEVOX Speak Selection",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Speak selected Japanese text using your locally running VOICEVOX Engine.",
   "permissions": [
     "contextMenus",
